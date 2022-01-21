@@ -19,7 +19,7 @@ public class ShipmentController {
 	@Autowired
 	ShipmentService shipmentService;
 	
-	@GetMapping("/shipment")
+	@GetMapping("/shipment-report")
 	@SuppressWarnings("unchecked")
 	public ResponseEntity<Object> getShippmentStatusNew() {
 
